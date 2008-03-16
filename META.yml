@@ -1,12 +1,12 @@
 # http://module-build.sourceforge.net/META-spec.html
 #XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         NET-Sieve-Script
-version:      0.02
-version_from: lib/NET/Sieve/Script.pm
+name:         Net-Sieve-Script
+version:      0.03
+version_from: lib/Net/Sieve/Script.pm
 installdirs:  site
 requires:
     Class::Accessor::Fast:         0.3
-    Test::Simple:                  0.44
+    Test::More:                    0.1
 
 distribution_type: module
 generated_by: ExtUtils::MakeMaker version 6.30_01
