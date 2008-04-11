@@ -1,12 +1,18 @@
-# http://module-build.sourceforge.net/META-spec.html
-#XXXXXXX This is a prototype!!!  It will change in the future!!! XXXXX#
-name:         Net-Sieve-Script
-version:      0.04
-version_from: lib/Net/Sieve/Script.pm
-installdirs:  site
-requires:
-    Class::Accessor::Fast:         0.3
-    Test::More:                    0.1
-
+abstract: Parse and write sieve scripts
+author: Yves Agostini - Univ Metz - <agostini@univ-metz.fr>
+build_requires: 
+  Pod::Coverage: 0
+  Test::More: 0
 distribution_type: module
-generated_by: ExtUtils::MakeMaker version 6.30_01
+generated_by: Module::Install version 0.64
+license: perl
+name: Net-Sieve-Script
+no_index: 
+  directory: 
+    - inc
+    - t
+requires: 
+  Class::Accessor::Fast: 0.3
+  perl: 5.6.0
+tests: t/*.t
+version: 0.05
