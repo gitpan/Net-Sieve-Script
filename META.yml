@@ -1,11 +1,12 @@
 --- 
 abstract: Parse and write sieve scripts
-author: Yves Agostini - Univ Metz - <agostini@univ-metz.fr>
+author: 
+  - Yves Agostini - Univ Metz - <agostini@univ-metz.fr>
 build_requires: 
   Pod::Coverage: 0
   Test::More: 0
 distribution_type: module
-generated_by: Module::Install version 0.67
+generated_by: Module::Install version 0.68
 license: perl
 meta-spec: 
   url: http://module-build.sourceforge.net/META-spec-v1.3.html
@@ -19,4 +20,4 @@ requires:
   Class::Accessor::Fast: 0.3
   perl: 5.6.0
 tests: t/*.t
-version: 0.07
+version: 0.08
